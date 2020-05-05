@@ -1,0 +1,21 @@
+html, body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    margin: 15vw 40vw;
+    border: 3px solid green;
+}
+
+.container>*:not(label){
+    margin: .5vw .5vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+label{
+    margin: .5vw .5vw;
+    font-size: 1.5vw; 
+}
